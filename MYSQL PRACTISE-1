@@ -1,0 +1,21 @@
+CREATING OUR FIRST TABLE:
+
+CODE FOR CREATING THE TABLE 
+
+create database college;
+
+use college;
+
+create table student (
+
+id int PRIMARY KEY ,
+NAME varchar(50),
+AGE INT NOT NULL
+);
+
+
+INSERT INTO student VALUES(2,"nikhil",22);
+INSERT INTO student VALUES(1,"sandeep",21);
+
+:
+SELECT * FROM student;
