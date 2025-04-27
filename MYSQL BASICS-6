@@ -1,0 +1,7 @@
+USAGE OF THE DATABASE CRDEATED :
+
+   Here we usze the USE keyword for purpose of using the 
+     pre created database by using the keyword "USE"
+  SYNTAX :
+
+     USE db_name;
