@@ -1,0 +1,30 @@
+The sql totally depends on the data .
+there are of numerous types of data will be present and we sql to retrive the data 
+and manipulate the data by sql .
+
+examples:
+  google , instagram , youtube , etc...
+ these giant companies consists of numerous data and they use sql for these..
+
+
+DATABASE :
+  Database is collection of data in a format that can be easily accesed (DIGITAL)
+A software application used to manage our database is called DBMS ..
+
+Types of database :
+
+   Relational:
+
+       data stored in tables:
+examples:
+        MySql,SQLserver,ORACLE,PostgreSQL
+
+Non-Relational:
+
+       data not stored in tables 
+example:
+      mongoDB
+
+
+
+
