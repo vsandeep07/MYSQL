@@ -1,0 +1,11 @@
+DELETING THE DATABASE OR ELSE DROP THE DATABASE 
+
+   Here we used to drop means deleting the database from
+     the existing file ..
+   It can be accured by using the ketword DROP
+
+SYNTAX:
+
+  DROP DATABASE db_name,
+
+
