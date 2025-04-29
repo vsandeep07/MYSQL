@@ -1,0 +1,31 @@
+Q. CREATRE A DATABASE FOR YOUR COMPAY NAMED XYZ.
+
+STEP1. CREATE A TABLE INSIDE THE DB TO STORE EMPLOYEE INFORMATION(ID,NAME,SALARY) .
+STEP2. ADD FOLLOWING INFO IN DB 
+
+      1, "ADAM",25000
+      2, "BOB", 30000
+      3, "CASY", 40000
+
+STEP3. SELECT AND VIEW ALL YOUR TABLE DATA
+
+SOLUTION:
+
+create database XYZ;
+
+use XYZ;
+
+create table employee
+(id int primary key,
+name varchar(50),
+salary int
+);
+
+insert into employee
+(id,name,salary)
+values
+(1,"adam",25000),
+(2,"bob",30000),
+(3,"casey",40000);
+
+select*from employee;
