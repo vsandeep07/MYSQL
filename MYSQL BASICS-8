@@ -1,0 +1,17 @@
+CREATE DATABASE BAKERY_ITEMS1;
+
+
+USE BAKERY_ITEMS;
+
+CREATE TABLE items(
+itemname varchar(50),
+quantity int
+);
+
+insert into items values
+('pizza',21),
+('burger',23),
+('sandwich',24)
+;
+
+select * from items;
