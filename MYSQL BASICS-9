@@ -1,0 +1,17 @@
+create database srinu;
+
+use srinu;
+
+create table nikki
+(id int primary key,
+name varchar(50)
+);
+
+select*from nikki;
+
+
+insert into nikki
+(id,name)
+values
+(123,"sandeep"),
+(234,"nikhil");
