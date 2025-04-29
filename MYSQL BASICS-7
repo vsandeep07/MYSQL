@@ -1,0 +1,20 @@
+create database sandeep3;
+
+use sandeep;
+
+create table student6 (
+
+id int PRIMARY KEY NOT NULL,
+NAME varchar(50)
+
+);
+
+INSERT INTO student6 values
+
+(2,'savitri');
+
+
+
+SELECT * FROM student6;
+
+DESC student6;# this is used for show casing the table of cotent which were consists are not in the tables 
