@@ -1,0 +1,20 @@
+create database sk;
+
+use sk;
+
+create table maya
+(gender varchar(50),
+mobile bigint,
+company varchar(100),
+salary int default 25000);
+
+insert into maya(gender,mobile,company) values ("male",1234567890,"wipro");
+
+select*from maya;
+
+
+keywords:
+
+  >  bigint: here i used it because of that mobile numbedr is of consising ten digits.
+  >  default: Here i used the default because it will return the values presented (25000)
+               in case if there is no value is given to the salary then it will default the value...
