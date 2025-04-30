@@ -1,0 +1,32 @@
+The WHERE clause in MySQL is used to filter records based on specified conditions. It allows you to retrieve only the data that meets certain criteria. The operators used in the WHERE clause can be categorized into different types:
+Comparison Operators
+These operators compare values and return results based on the condition:
+- = : Equal to
+- > : Greater than
+- < : Less than
+- >= : Greater than or equal to
+- <= : Less than or equal to
+- <> or != : Not equal to
+
+Logical Operators
+These operators help in combining multiple conditions:
+- AND : Returns true if all conditions are met
+- OR : Returns true if at least one condition is met
+- NOT : Negates a condition
+
+Range and Pattern Matching Operators
+These operators help in filtering data based on ranges or patterns:
+- BETWEEN : Selects values within a given range
+- LIKE : Searches for a specified pattern in a column
+- IN : Checks if a value exists in a list of values
+
+Existence Operators
+These operators check for the presence of records:
+- EXISTS : Returns true if a subquery returns any records
+
+Bitwise Operators
+These operators perform bitwise operations:
+- & : Bitwise AND
+- | : Bitwise OR
+- ^ : Bitwise XOR
+
