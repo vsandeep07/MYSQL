@@ -1,0 +1,17 @@
+create database some;
+
+use some;
+
+create table paymenting(
+customername varchar(50),
+age int,
+customer_id int,
+constraint check(age>=18)
+);
+
+select*from paymenting;
+insert into paymenting
+(customername,age,customer_id)
+values
+("sandeep",22,213),
+("saikumar",23,214);
