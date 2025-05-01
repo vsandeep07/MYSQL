@@ -1,0 +1,28 @@
+create database colleges;
+
+use colleges;
+
+create table students(
+name varchar(50),
+roll_no int unique,
+city varchar(50),
+marks int,
+grade varchar(2)
+);
+
+select*from students;
+
+insert into students
+(name,roll_no,city,marks,grade)
+values
+("ARJUN",2133102867,"HYDERABAD",96,"A"),
+("PARTHU",2133102868,"CHENNI",65,"C"),
+("RAJU",2133102869,"DELHI",82,"B"),
+("KISHOR",2133102860,"PUNJAB",96,"A")
+;
+
+
+select city, count(roll_no)
+from students
+group by city
+having max(marks) > 90;
