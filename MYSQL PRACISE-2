@@ -1,0 +1,26 @@
+create database money;
+
+use money;
+
+create table modeinpayment(
+customer_id int,
+customername varchar(50),
+city varchar(50),
+mode varchar(50)
+);
+
+select mode,count(customername)
+from modeinpayment
+group by mode;
+
+insert into modeinpayment
+(customer_id,customername,city,mode)
+values
+(211,"sandeep","bombay","netbanking"),
+(212,"arjun","hyderabad","credit card"),
+(213,"parthu","gujarath","netbanking"),
+(214,"rithikha","hyderabad","credit card"),
+(215,"manju","amrister","online"),
+(216,"shambu","maharastra","debit card"),
+(217,"rukmini","kolkatha","netbanking");
+
