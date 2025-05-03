@@ -1,4 +1,4 @@
-# create a database and table change the "name" variable name to "full_nmae" ?
+# create a database and table change the "name" variable name to "full_nmae" and drop the column grade in the progres table ?
 
 
 CREATE DATABASE student;
@@ -24,4 +24,17 @@ values
 alter table progres
 change column name full_name varchar(50);
 
+ALTER TABLE PROGRES
+DROP COLUMN grade;
+
 select * from progres;
+
+/////////////////////////////////
+
+OUTPUT:
+full_name,class,marks
+sandeep	14	97
+sanju	14	34
+sampath	14	23
+samrat	14	96
+sandy	14	78
