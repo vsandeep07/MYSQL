@@ -1,0 +1,14 @@
+create database departments;
+
+use departments;
+
+create table depts(
+name varchar(50),
+id int primary key
+);
+create table teachers(
+id_info int,
+name varchar(50),
+foreign key (id_info) references depts(id)
+);
+
