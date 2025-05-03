@@ -1,0 +1,42 @@
+
+#### RIGHT JOIN ####
+
+CREATE DATABASE joints;
+
+use joints;
+
+create table innerjoin1(
+id int primary key,
+name varchar(50)
+);
+
+insert into innerjoin1
+values
+(101,"sandeep"),
+(102,"sand"),
+(103,"sande"),
+(104,"san");
+
+
+create table course(
+id int primary key,
+course varchar(50)
+);
+
+insert into course
+values
+(108,"maths"),
+(102,"english"),
+(106,"french"),
+(104,"greek"),
+(101,"chinees"),
+(103,"russian");
+
+select * from innerjoin1;
+select * from course;
+
+
+select *
+from innerjoin1 as i
+right join course as c
+on i.id = c.id;
