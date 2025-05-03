@@ -1,0 +1,30 @@
+
+#### SELF JOIN  ####
+
+create database employee;
+
+use employee;
+
+create table office(
+id int primary key,
+name varchar(50),
+manager_name varchar(50)
+);
+drop table office;
+
+insert into office 
+(id ,name,manager_name)
+values
+(101,"sandeep","adam"),
+(102,"suresh","raju"),
+(103,"raju","suresh"),
+(104,"paddu","sandeep"),
+(105,"nikki","paddu");
+
+select * from office;
+
+select *
+from office as a
+join office as b
+on a.name = b.manager_name;
+
