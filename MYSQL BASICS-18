@@ -1,0 +1,27 @@
+# create a database and table change the "name" variable name to "full_nmae" ?
+
+
+CREATE DATABASE student;
+
+use student;
+
+create table progres(
+name varchar(50),
+class int,
+marks int,
+grade varchar(2)
+);
+
+insert into progres
+values
+("sandeep",14,97,"A"),
+("sanju",14,34,"D"),
+("sampath",14,23,"E"),
+("samrat",14,96,"A"),
+("sandy",14,78,"C");
+
+
+alter table progres
+change column name full_name varchar(50);
+
+select * from progres;
